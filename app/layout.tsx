@@ -1,3 +1,4 @@
+// import { Toaster } from "@/components/ui/sonner";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -21,9 +22,10 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <Navbar />
-          <div className="flex-1 min-h-screen relative grainy-light bg-blue-50">
+          <div className="flex-1 relative grainy-light bg-blue-50">
             {children}
           </div>
+          {/* <Toaster /> */}
         </body>
       </html>
     </ClerkProvider>

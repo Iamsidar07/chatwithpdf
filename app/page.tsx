@@ -39,7 +39,7 @@ const FEATURES = [
 
 export default async function Home() {
   return (
-    <main className="px-4 md:px-8 py-12 lg:py-24 flex flex-col items-center min-h-screen max-w-7xl mx-auto">
+    <main className="px-4 md:px-8 py-12 lg:py-24 flex flex-col items-center min-h-screen max-w-7xl mx-auto min-h-screen">
       <div className="rounded-full ring-1 ring-inset ring-gray-900/10 shadow-sm p-px">
         <div className="w-full h-full px-4 py-1.5 rounded-full text-sm bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text font-bold">
           Introducing chat with pdf
